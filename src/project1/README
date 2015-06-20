@@ -1,0 +1,10 @@
+Project one is representative of what you might see in the average 200 point
+CTF challenge. There is no source provided and you’re expected to do some
+reverse engineering with IDA. Through reversing and playing around with the
+challenge, you will likely find the issues and vulnerabilities you can leverage
+to take control of the challenge.
+
+The end goal is like any of labs. There’s a secret .pass file in the privileged
+project1 account, and we would like you to extract it.
+
+Good luck.

@@ -1,0 +1,10 @@
+To start lab C:
+
+ssh lab10C@warzone-kernel.rpis.ec
+password: lab10start
+
+
+Once you pwn the Kernel module to get root, you can read the flag, and the password for lab10A in /root/flag.
+
+
+Good luck!

@@ -1,0 +1,3 @@
+lab8A is a remote level much like lab6B. It is running on port 8841.
+
+nc wargame.server.example 8841 -vvv

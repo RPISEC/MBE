@@ -1,0 +1,7 @@
+Build instructions
+
+Make an Ubuntu 14.04 x32 server VM for building/testing.
+
+mkdir ./build && cd ./build
+cmake ../
+make && make install

@@ -1,0 +1,7 @@
+There are a few different stages to this project. There is no source, so you
+will be required to do some reversing. Using IDA is HIGHLY advised.
+
+Ultimately, this is an exploitation challenge. There is a .pass file, and you
+are expected to get a shell as with the labs or last project.
+
+The service is running on port 31337

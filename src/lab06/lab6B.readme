@@ -1,0 +1,8 @@
+lab6B is not a suid binary, instead you must pwn the privileged
+service running on port 6642
+
+Using netcat:
+   nc wargame.server.example 6642 -vvv
+
+Your final exploit must work against this service in order to
+get the .pass file from the lab6A user.
