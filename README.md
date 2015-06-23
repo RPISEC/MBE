@@ -192,8 +192,8 @@ number of Ubuntu updates.
 
 ## Frequently Asked Questions
 
-#### Why can't I login to lab01c?
-Account names are case sensitive, so please check that you're logging in as lab01**C**
+#### Why can't I login to lab1c?
+Account names are case sensitive, so please check that you're logging in as lab1**C**
 
 #### Where are the lab solutions?
 Posting solutions spoils the fun and grind of the game, and as an academic resource it is
