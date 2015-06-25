@@ -417,7 +417,7 @@ setup_level $lab $lab'_priv' 'm0_tw33ts_m0_ch4inz_n0_m0n3y' $lab level_files[@] 
 lab=project2
 level_files=('rpisec_nuke' 'README' 'GENERAL_CROWELL.key' 'GENERAL_DOOM.key' 'GENERAL_HOTZ.key')
 level_owners=($lab'_priv:'$lab $lab':'$lab $lab'_priv:'$lab $lab'_priv:'$lab $lab'_priv:'$lab)
-level_perms=('4550' '0400' '0400' '0400' '0400')
+level_perms=('0550' '0400' '0400' '0400' '0400')
 setup_level $lab $lab'_priv' 'th3_pr1nt_funct10n_w4s_100_l!n3s_al0ne' $lab level_files[@] level_owners[@] level_perms[@]
 add_socat_on_start "$LEVELS_DIR/project2" "timeout 300 $LEVELS_DIR/project2/rpisec_nuke" 31337 $lab'_priv'
 
