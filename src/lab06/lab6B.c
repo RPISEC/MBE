@@ -165,6 +165,7 @@ int main(int argc, char* argv[])
     /* hash the password we'll be comparing against */
     hash_pass(secretpw, "lab6A");
     printf("----------- FALK OS LOGIN PROMPT -----------\n");
+    fflush(stdout);
 
     /* authorization loop */
     if(login_prompt(pwsize, secretpw))
