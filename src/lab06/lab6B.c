@@ -1,4 +1,3 @@
-/* doom's
 /* compiled with: gcc -z relro -z now -pie -fPIE -fno-stack-protector -o lab6B lab6B.c */
 
 #include <stdio.h>
