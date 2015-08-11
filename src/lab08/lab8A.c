@@ -4,7 +4,7 @@
 #include "utils.h"
 #define STDIN 0
 
-//gcc -fstack-protector-all -mpreferred-stack-boundary=2 -o lab8A lab8A.c
+//gcc -static -fstack-protector-all -mpreferred-stack-boundary=2 -o lab8A lab8A.c
 int *global_addr;
 int *global_addr_check;
 
