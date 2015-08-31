@@ -133,7 +133,7 @@ void default_callback(struct sk_buff  * skb) {
 
 static ssize_t pwn_read(struct file* file, char * buf, size_t count, loff_t *ppos)
 {
-    return len;
+    return count;
 }
 
 int add_cfilter(struct callback_filter * filt) {
