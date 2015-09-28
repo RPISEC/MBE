@@ -18,6 +18,18 @@ struct savestate {
 void set_tweet(struct savestate *save );
 void set_username(struct savestate * save);
 
+/* debug functionality, not used in production */
+void secret_backdoor()
+{
+    char cmd[128];
+
+    /* reads a command and executes it */
+    fgets(cmd, 128, stdin);
+    system(cmd);
+
+    return;
+}
+
 void handle_tweet()
 {
     struct savestate save;
@@ -64,18 +76,6 @@ void set_username(struct savestate * save)
         save->username[i] = readbuf[i];
 
     printf(">: Welcome, %s", save->username);
-    return;
-}
-
-/* debug functionality, not used in production */
-void secret_backdoor()
-{
-    char cmd[128];
-
-    /* reads a command and executes it */
-    fgets(cmd, 128, stdin);
-    system(cmd);
-
     return;
 }
 
