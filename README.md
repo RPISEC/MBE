@@ -82,9 +82,9 @@ Lab | Topic | Corresponding Lectures
 ### Repository Breakdown
 * [src/](/src) - Source code for labs
 * [setup_wargame.sh](/setup_wargame.sh),[external_tools.sh](/external_tools.sh) - Install scripts to setup MBE on an Ubuntu 14.04 32-bit machine
-* [MBE_release.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.0_release/MBE_release.tar.gz) - Binaries for labs and projects
-* [MBE_lectures.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.0_release/MBE_lectures.tar.gz) - PDFs of all lecture slides
-* [MBE_VM.vmdk.gz](https://github.com/RPISEC/MBE/releases/download/v1.0_release/MBE_VM.vmdk.gz) - A vmdk (disk image) of a VM that is already setup
+* [MBE_release.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.1_release/MBE_release.tar.gz) - Binaries for labs and projects
+* [MBE_lectures.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.1_release/MBE_lectures.tar.gz) - PDFs of all lecture slides
+* [MBE_VM.vmdk.gz](https://github.com/RPISEC/MBE/releases/download/v1.1_release/MBE_VM.vmdk.gz) - A vmdk (disk image) of a VM that is already setup
 
 ## Labs - The RPISEC Warzone
 
@@ -125,7 +125,7 @@ VMware provides a great [2 minute video](https://www.youtube.com/watch?v=I6WfFLQ
 <a href="https://www.youtube.com/watch?v=I6WfFLQwoPg"><img src="/resources/images/vmware.png" alt="Final"/></a>
 </p>
 
-1. Download [MBE_VM.vmdk.gz](https://github.com/RPISEC/MBE/releases/download/v1.0_release/MBE_VM.vmdk.gz) from our release page
+1. Download [MBE_VM.vmdk.gz](https://github.com/RPISEC/MBE/releases/download/v1.1_release/MBE_VM.vmdk.gz) from our release page
 2. Extract the archive to obtain the disk image
 3. Using VMware go to `File->New Virtual Machine...` and create a Custom VM
 4. When prompted for `Guest Operating System Installation`, select `I will install the operating system later`
@@ -180,7 +180,7 @@ We have provided a bash script that will fully setup the exact environment in th
 
 **DO NOT RUN THIS SCRIPT ON YOUR PERSONAL COMPUTER, RUN IT IN A VIRTUAL MACHINE**
 
-1. Download [MBE_release.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.0_release/MBE_release.tar.gz)
+1. Download [MBE_release.tar.gz](https://github.com/RPISEC/MBE/releases/download/v1.1_release/MBE_release.tar.gz)
 2. Move the archive to your VM or machine and extract it <br>
   **NOTE: It is not recommended to run the script from /tmp, as the sticky bits can screw up wildcards** <br>
   ```$ tar xzvf MBE_release.tar.gz```
