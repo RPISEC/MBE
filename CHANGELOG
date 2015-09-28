@@ -1,0 +1,11 @@
+WARZONE CHANGELOG
+--------------------------------------
+v1.1 - September 2015
+-Project 2 was not meant to be suid, this has been fixed
+-Lab 6C should now be be exploitable 100% of the time as intended
+-Lab 6B had a bug fixed that rendered it unsolvable
+-Lab 6A canaries are now properly disabled, as they were in class
+-Lab 8A source now has the '-static' flag to reflect the binary
+
+v1.0 - June 2015
+-Initial release
