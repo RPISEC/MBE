@@ -2,7 +2,7 @@
 Exploitation with ASLR enabled
 Lab A
 
-gcc -fpie -pie -o lab6A ./lab6A.c
+gcc -fpie -pie -fno-stack-protector -o lab6A ./lab6A.c
 
 Patrick Biernat
 */

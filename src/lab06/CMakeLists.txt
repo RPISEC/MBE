@@ -8,7 +8,7 @@ add_executable(lab6B lab6B.c)
 SET_FLAGS(lab6B "-z relro -z now -pie -fPIE -fno-stack-protector")
 
 add_executable(lab6A lab6A.c)
-SET_FLAGS(lab6A "-pie -fPIE")
+SET_FLAGS(lab6A "-pie -fPIE -fno-stack-protector")
 
 # These are the files we want to give students
 install(TARGETS lab6C lab6B lab6A DESTINATION "${RELEASE_DIR}/lab06")
