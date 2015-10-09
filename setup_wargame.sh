@@ -3,10 +3,22 @@
 #########################################
 #          Pre-install checks
 #########################################
+
+# Warn the user about running this on their host machine
+# (because it makes various invasive settings-changes, and runs a ton of vulnerable services)
+echo -e "\x1b[31;1mDON'T RUN THIS ON YOUR REAL COMPUTER\x1b[0m"
+echo "Are you running this inside a VM? (If you don't know what that means, don't run the script.)"
+read -p "(yes/no)> "
+if [ "$REPLY" != 'yes' ]; then
+    exit
+fi
+
 if [ "$USER" != 'root' ]; then
     echo "ERROR: Script must be run using root!"
     exit
 fi
+
+echo -e "\x1b[32;1mProceeding with the installation.\x1b[0m"
 
 #########################################
 #     Per-Machine Install Variables
