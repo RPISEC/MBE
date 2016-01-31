@@ -195,6 +195,21 @@ number of Ubuntu updates.
 #### Why can't I login to lab1c?
 Account names are case sensitive, so please check that you're logging in as lab1**C**
 
+#### Why am I getting 'permission denied' errors?
+The warzone marks many files as immutable to prevent users from changing them and
+ruining the game for other players. For example, we don't want the lab2B user to
+delete its `.pass` file or `/levels` files. A few system files, such as `/etc/passwd`,
+are also marked immutable. 
+
+If you would like to modify or delete these files simply remove the immutable flag
+```bash
+chattr -i filename
+```
+We recommend that you add the flag back when you are done making your changes
+```bash
+chattr +i filename
+```
+
 #### Where are the lab solutions?
 Posting solutions spoils the fun and grind of the game, and as an academic resource it is
 likely some of these materials may be re-used by other classes in the future. As goes with
