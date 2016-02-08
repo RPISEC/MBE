@@ -161,6 +161,7 @@ Once you exploit a level and escalate to the next user (confirm with `whoami`), 
 
 #### VM information
 * admin user: `gameadmin:gameadmin`
+* lecture user: `lecture:lecture`
 * rc files are in `/etc/cfg`
   * All lab/project users have symlinks to these files in their home directories
   * These files are also symlinked in `/etc/skel`
