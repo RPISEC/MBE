@@ -196,6 +196,9 @@ number of Ubuntu updates.
 #### Why can't I login to lab1c?
 Account names are case sensitive, so please check that you're logging in as lab1**C**
 
+#### Why can't I connect with ssh to the VM?
+Are you using VirtualBox? Check [How to SSH to a VirtualBox guest](https://stackoverflow.com/questions/5906441/how-to-ssh-to-a-virtualbox-guest-externally-through-a-host)
+
 #### Why am I getting 'permission denied' errors?
 The warzone marks many files as immutable to prevent users from changing them and
 ruining the game for other players. For example, we don't want the lab2B user to
