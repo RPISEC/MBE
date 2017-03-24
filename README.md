@@ -282,6 +282,7 @@ International license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/
 <p align="center">
 <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="/resources/images/cc-by-nc.png" alt="CC BY-NC 4.0"/></a>
 </p>
+
 **Code**
 
 The code in this repo is covered by the BSD 2-Clause license. You can view this license in [LICENSE](/LICENSE).
