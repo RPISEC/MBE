@@ -92,7 +92,7 @@ The Warzone is a custom wargame that was built from the ground up for this cours
 a complete and consistent learning platform for us to release the labs and projects to the
 students. The wargame was built ontop of a vanilla Ubuntu 14.04 32-bit server install, and is
 modeled after existing local privilege escalation themed wargames. If you have ever played
-the fantastic [SmashTheStack IO](http://io.smashthestack.org/) wargame, the Warzone has a
+the fantastic [IO wargame](https://io.netgarage.org/) (formerly hosted at SmashTheStack), the Warzone has a
 somewhat similar structure.
 
 <p align="center">
