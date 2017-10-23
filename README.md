@@ -149,8 +149,8 @@ We tried to keep the course fairly self contained but if you find yourself lost 
   <img src="/resources/images/ip_addr.png" alt="ip addr"/>
   </p>
   and then SSH using [PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) or a command line client<br>
-  ```$ ssh lab1C@172.16.29.130```<br>
-  ```lab1C@172.16.130's password: lab01start```<br>
+  <code>$ ssh lab1C@172.16.29.130</code><br>
+  <code>lab1C@172.16.130's password: lab01start</code><br>
 * Navigate to `/levels/labXX` to begin<br>
   ```$ cd /levels/lab01```
 * The Warzone is structured like any local privilege escalation wargame.
