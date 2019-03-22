@@ -62,6 +62,8 @@ Lecture | Title | Topics
 14 | Exploitation on 64bit, ARM, Windows | Exploitation differences on other architectures & platforms
 15 | Automation & The Future of Exploitation | Fuzzing, taint analysis, dynamic instrumentation, SMT/SAT solvers
 
+*Refer to [ERRATA.md](https://github.com/RPISEC/MBE/blob/master/ERRATA.md) for slide corrections.*
+
 ### Lab Breakdown
 Lab | Topic | Corresponding Lectures
 --- | ----- | ----------------------
