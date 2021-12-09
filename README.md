@@ -19,9 +19,9 @@ in learning.
 
 The question this course posed was _'Can we teach a bunch of programmers how to pwn?'_
 
-**Course website:** http://security.cs.rpi.edu/courses/binexp-spring2015/
+**Course website:** [http://security.cs.rpi.edu/courses/binexp-spring2015/](https://web.archive.org/web/20210710080726/http://security.cs.rpi.edu/courses/binexp-spring2015/)
 
-**Syllabus:** http://security.cs.rpi.edu/courses/binexp-spring2015/Syllabus.pdf
+**Syllabus:** [http://security.cs.rpi.edu/courses/binexp-spring2015/Syllabus.pdf](https://web.archive.org/web/20210413214448/http://security.cs.rpi.edu/courses/binexp-spring2015/Syllabus.pdf)
 
 ### Course Abstract
 
